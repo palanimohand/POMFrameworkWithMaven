@@ -20,7 +20,7 @@ public class TC003_MergeLead extends ProjectMethods {
 	
 	@Test(dataProvider="fetchData")
 	public void mergeLead(String uName, String pwd, String fromid, String toid, String result) throws InterruptedException {
-		
+		//sys
 		new LoginPage()
 		.enterUserName(uName)
 		.enterPassword(pwd)
